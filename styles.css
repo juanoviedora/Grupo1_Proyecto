@@ -1,0 +1,24 @@
+.fondo-style{
+    background-color: #964B00;
+}
+.navbar-style{
+    background-color: #f5f5dc;
+}
+.logo-style{
+    width: 250px;
+    padding: 5px 0;
+}
+.nav-item-style{
+    color: #000000;
+}
+.carousel-style{
+    margin-top: 12%;
+}
+.carousel-img-style{
+    width: 40%;
+    margin: auto;
+}
+.inicio-style{
+    padding: 100px 0;
+    margin: auto;
+}
