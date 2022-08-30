@@ -1,24 +1,56 @@
-.fondo-style{
-    background-color: #964B00;
+/*Imagen de Fondo*/
+.bg-style{
+    background: url(img/background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
 }
+
+/*Tamaño y color de navbar*/
 .navbar-style{
     background-color: #f5f5dc;
+    padding: 10px 0;
 }
+
+/*Tamaño del logo*/
 .logo-style{
-    width: 250px;
-    padding: 5px 0;
+    width: 250px; 
 }
-.nav-item-style{
-    color: #000000;
+
+/*Posición de botones*/
+.btn-style{
+    margin-top: 35%;
 }
-.carousel-style{
-    margin-top: 12%;
+
+/*Estilo de botón menú*/
+.btn-menu-style{
+    background-color: #f5f5dc;
+    font-weight: bold;
+    height: 40px;
+    width: 110px;
 }
-.carousel-img-style{
-    width: 40%;
-    margin: auto;
+
+/*Estilo de botón reserva*/
+.btn-reserva-style{
+    background-color: #f5f5dc;
+    font-weight: bold;
+    height: 40px;
+    width: 110px;
+    margin-left: 25%;
+    margin-right: 25%;
 }
-.inicio-style{
-    padding: 100px 0;
-    margin: auto;
+
+/*Estilo de botón contacto*/
+.btn-contacto-style{
+    background-color: #f5f5dc;
+    font-weight: bold;
+    height: 40px;
+    width: 110px;
+}
+
+/*Estilo de linea de separación*/
+.hr-style{
+    margin-top: 15%;
+    height: 10px;
+    background: linear-gradient(to right, black , gray);
+   
 }
