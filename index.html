@@ -14,129 +14,24 @@
         crossorigin="anonymous"></script>
     <!-- Estilo css -->
     <link rel="stylesheet" href="styles.css">
-    <title>Proyecto</title>
+    <title>Proyecto - Home</title>
 </head>
 
-<body class="fondo-style">
+<body class="bg-style">
     <!-- Barra de navegación -->
-    <nav class="navbar-style container-fluid navbar navbar-expand-sm justify-content-between fixed-top">
+    <nav class="navbar-style container-fluid fixed-top">
         <!-- Inserción de logo en barra de navegación -->
-        <img class="logo-style" src="images/logo.png" alt="logo">
+        <img class="logo-style mx-auto d-block mt-2 mb-2" src="img/logo.png" alt="Logo">
         <!-- Creación items de la barra de navegación -->
-        <ul class="navbar-nav">
-            <li class="nav-item"><a class="nav-item-style nav-link" href="#">INICIO</a></li>
-            <li class="nav-item"><a class="nav-item-style nav-link" href="#">SERVICIO</a></li>
-            <li class="nav-item"><a class="nav-item-style nav-link" href="#">QUIENES SOMOS</a></li>
-            <li class="nav-item"><a class="nav-item-style nav-link" href="#">CONTACTO</a></li>
-        </ul>
     </nav>
 
-    <!-- Carrusel -->
-    <div id="intro" class="carousel slide" data-bs-ride="carousel">
-        <!-- Creamos e indicamos la cantidad de imagenes que se van a usar -->
-        <div class="carousel-indicators">
-            <button type="button" data-bs-target="#intro" data-bs-slide-to="0" class="active"></button>
-            <button type="button" data-bs-target="#intro" data-bs-slide-to="1"></button>
-            <button type="button" data-bs-target="#intro" data-bs-slide-to="2"></button>
-            <button type="button" data-bs-target="#intro" data-bs-slide-to="3"></button>
-        </div>
-        <!-- Inserción de las imagenes del carrusel -->
-        <div class="carousel-inner carousel-style">
-            <div class="carousel-item active">
-                <img src="images/1.jpg" class="d-block carousel-img-style" alt="slide1">
-            </div>
-            <div class="carousel-item">
-                <img src="images/2.jpg" class="d-block carousel-img-style" alt="slide2">
-            </div>
-            <div class="carousel-item">
-                <img src="images/3.jpg" class="d-block carousel-img-style" alt="slide3">
-            </div>
-            <div class="carousel-item">
-                <img src="images/4.jpg" class="d-block carousel-img-style" alt="slide4">
-            </div>
-        </div>
-        <!-- Creamos el botón e icono de visualización previa del carrusel (<) -->
-        <button class="carousel-control-prev" type="button" data-bs-target="#intro" data-bs-slide="prev">
-            <span class="carousel-control-prev-icon"></span>
-        </button>
-         <!-- Creamos el botón e icono de visualización siguiente del carrusel (>) -->
-        <button class="carousel-control-next" type="button" data-bs-target="#intro" data-bs-slide="next">
-            <span class="carousel-control-next-icon"></span>
-        </button>
+    <!-- Botones -->
+    <div class="btn-style container-fluid text-center">
+        <!-- Creación de botones -->
+        <a href="menu.html" class="btn btn-menu-style">Menú</a>
+        <a href="reserva.html" class="btn btn-reserva-style">Reservas</a>
+        <a href="contacto.html" class="btn btn-contacto-style">Contacto</a>
     </div>
 
-    <main>
-        <!-- Sección INICIO -->
-        <section class="inicio-style">
-            <div class="container">
-                  <div class="row">
-                       <div class="col-12 col-sm-6">
-                            <h3>INICIO</h3>
-                            <p>Lorem ipsum dolor sit amet,consectetur adipisicing elit.Repudiandae autem aliquam,rem
-                            odit iusto ut nesciunt repellendus odio.</p>
-                       </div>
-    
-                       <div class="col-12 col-sm-6 ">
-                            <img src="images/2.jpg" class="d-block carousel-img-style" alt="slide4">
-                       </div>
-                  </div>
-            </div>
-        </section>
-
-        <!-- Sección SERVICIO -->
-        <section class="inicio-style">
-            <div class="container">
-                  <div class="row">
-                        <div class="col-12 col-sm-6 ">
-                            <img src="images/4.jpg" class="d-block carousel-img-style" alt="slide4">
-                        </div>
-
-                       <div class="col-12 col-sm-6 ">
-                            <h3>SERVICIO</h3>
-                            <p>Lorem ipsum dolor sit amet,consectetur adipisicing elit.Repudiandae autem aliquam,rem
-                            odit iusto ut nesciunt repellendus odio.</p>
-                       </div>
-                  </div>
-            </div>
-        </section>
-
-        <!-- Sección QUIENES SOMOS -->
-        <section class="inicio-style">
-            <div class="container">
-                  <div class="row">
-                       <div class="col-12 col-sm-6">
-                            <h3>QUIENES SOMOS</h3>
-                            <p>Lorem ipsum dolor sit amet,consectetur adipisicing elit.Repudiandae autem aliquam,rem
-                            odit iusto ut nesciunt repellendus odio.</p>
-                       </div>
-    
-                       <div class="col-12 col-sm-6 ">
-                            <img src="images/3.jpg" class="d-block carousel-img-style" alt="slide4">
-                       </div>
-                  </div>
-            </div>
-        </section>
-
-        <!-- Sección CONTACTO -->
-        <section class="inicio-style">
-            <div class="container">
-                  <div class="row">
-                        <div class="col-12 col-sm-6 ">
-                            <img src="images/1.jpg" class="d-block carousel-img-style" alt="slide4">
-                        </div>
-
-                       <div class="col-12 col-sm-6 ">
-                            <h3>CONTACTO</h3>
-                            <p>Lorem ipsum dolor sit amet,consectetur adipisicing elit.Repudiandae autem aliquam,rem
-                            odit iusto ut nesciunt repellendus odio.</p>
-                       </div>
-                  </div>
-            </div>
-        </section>
-
-    </main>
-       
-
 </body>
-
 </html>
