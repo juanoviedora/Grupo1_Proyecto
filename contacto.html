@@ -14,16 +14,52 @@
         crossorigin="anonymous"></script>
     <!-- Estilo css -->
     <link rel="stylesheet" href="styles.css">
+    <!-- Fuente personalizada -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Slab&display=swap" rel="stylesheet">
     <title>Proyecto - Contacto</title>
 </head>
 
 <body>
-    <!-- Barra de navegación -->
-    <nav class="navbar-style container-fluid fixed-top">
-        <!-- Inserción de logo en barra de navegación -->
-        <a href="index.html">
-            <img class="logo-style mx-auto d-block mt-2 mb-2" src="img/logo.png" alt="Logo">
-        </a>
-    </nav>
+    <div class="bg-c-style font-style">
+        <!-- Barra de navegación -->
+        <nav class="navbar-style container-fluid fixed-top">
+            <!-- Inserción de logo en barra de navegación -->
+            <a href="index.html">
+                <img class="logo-style mx-auto d-block mt-2 mb-2" src="img/logo.png" alt="Logo">
+            </a>
+        </nav>
 
+        <div class="container-contacto-style container mt-3 mb-3">
+            <h1 class="h1-style p-3">Contacta con nosotros</h1>
+        </div>
+
+        <div class="container d-flex justify-content-center mt-2">
+            <input class="p-3 m-2 w-25" type="text" placeholder="Nombre">
+            <input class="m-2 w-25" type="text" placeholder="Apellido">
+            <input class="m-2 w-25" type="email" placeholder="Email">
+        </div>
+
+        <div class="container d-flex justify-content-center mt-3">
+            <textarea placeholder="Asunto" cols="122" rows="5"></textarea>
+        </div>
+
+        <div class="container d-flex justify-content-start mt-5">
+            <input class="input-style p-2 w-25" type="submit" value="Enviar">
+        </div>
+
+        <div class="container d-flex justify-content-start mt-5">
+            <a href="https://chat.whatsapp.com/Lvaco0bIf7e5SWe8XXCGID" target="_blank">
+                <img class="logo-whats-style" src="/img/whats.png" alt="WhatsApp">
+            </a>
+        </div>
+        
+        <div class="container-fluid d-flex justify-content-center align-items-center p-3 mt-5">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15903.410471936344!2d-75.687775!3d4.795338!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x8a5ee3bac75e2b3c!2sUniversidad%20Tecnol%C3%B3gica%20de%20Pereira!5e0!3m2!1ses!2sco!4v1661985751174!5m2!1ses!2sco"
+                width="1250" height="500" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </div>
 </body>

@@ -14,23 +14,28 @@
         crossorigin="anonymous"></script>
     <!-- Estilo css -->
     <link rel="stylesheet" href="styles.css">
+    <!-- Fuente personalizada -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Slab&display=swap" rel="stylesheet">
     <title>Proyecto - Home</title>
 </head>
 
-<body class="bg-style">
-    <!-- Barra de navegación -->
-    <nav class="navbar-style container-fluid fixed-top">
-        <!-- Inserción de logo en barra de navegación -->
-        <img class="logo-style mx-auto d-block mt-2 mb-2" src="img/logo.png" alt="Logo">
-    </nav>
+<body>
+    <header class="header">
+        <div class="bg-h-style"></div>
+        <!-- Barra de navegación -->
+        <nav class="navbar-style container-fluid">
+            <!-- Inserción de logo en barra de navegación -->
+            <img class="logo-style mx-auto d-block mt-2 mb-2" src="img/logo.png" alt="Logo">
+        </nav>
 
-    <!-- Botones -->
-    <div class="btn-style container-fluid text-center">
-        <!-- Creación de botones -->
-        <a href="menu.html" class="btn btn-menu-style">Menú</a>
-        <a href="reserva.html" class="btn btn-reserva-style">Reservas</a>
-        <a href="contacto.html" class="btn btn-contacto-style">Contacto</a>
-    </div>
-
+        <!-- Botones -->
+        <div class="container-home-style container-fluid text-center">
+            <!-- Creación de botones -->
+            <a href="menu.html" target="_parent"><button class="btn-style font-style">Menú</button></a>
+            <a href="reserva.html"><button class="btn-style font-style">Reservas</button></a>
+            <a href="contacto.html"><button class="btn-style font-style">Contacto</button></a>
+        </div>
+    </header>
 </body>
-</html>
