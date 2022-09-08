@@ -1,6 +1,6 @@
 /*Imagen de fondo Home*/
 .bg-h-style{
-    background-image:linear-gradient(rgba(5,7,12,0.25),rgba(5,7,12,0.25)), url(img/bg-h.jpg);
+    background:linear-gradient(rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.4)), url(img/bg-h.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     position: absolute;
@@ -13,21 +13,47 @@
 
 /*Imagen de fondo Contacto*/
 .bg-c-style{
-    background:linear-gradient(rgba(5,7,12,0.25),rgba(5,7,12,0.25)), url(img/bg-c.jpg);
+    background:linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url(img/bg-c.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     position: absolute;
-    height: 179%;
+    height: 149.8%;
     width: 100%;
     left: 0;
     top: 0;
     z-index: -1;
 }
 
-/*Fuente personalizada*/
+/*Imagen de fondo Reserva*/
+.bg-r-style{
+    background:linear-gradient(rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.4)), url(img/bg-r.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    z-index: -1;
+}
+
+/*Imagen de fondo Menú*/
+.bg-m-style{
+    background:linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url(img/bg-m.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    height: 153%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    z-index: -1;
+}
+
+/*Estilo de la fuente*/
 .font-style{
-    color: black;
-    font-family: 'Josefin Slab', serif;
+    color: #000;
+    font-family: 'Roboto';
     font-weight: bold;
 }
 
@@ -41,6 +67,17 @@
 /*Tamaño del logo*/
 .logo-style{
     width: 250px; 
+}
+
+/*Posición del titulo principal*/
+.h1-style{
+    margin-left: 125px;
+    color: #f5f5dc;
+}
+
+/*Posición de contenedor secciones*/
+.container-sections-style{
+    padding-top: 9%;
 }
 
 /*Posición de contenedor Home*/
@@ -57,18 +94,26 @@
     margin: 0 11.3% 0 11.3%;
 }
 
-/*Posición del container principal Contacto*/
-.container-contacto-style{
-    padding-top: 6.8%;
-}
-
-/*Posición del titulo principal Contacto*/
-.h1-style{
-    margin-left: 125px;
-    color: #f5f5dc;
-}
-
 /*Posición de boton enviar y logo WhatsApp Contacto*/
-.input-style, .logo-whats-style{
+.input-style, .btnw-style {
     margin-left: 145px;
+}
+
+/* Estilo linea separación Menú */
+.line-style{
+    height: 5px;
+    width: 66%;
+    margin-left: 17%;
+}
+
+/*Posición del container principal Menú*/
+.container-reserva-style{
+    width: 66%;
+    color: #fff;
+}
+
+.row-style{
+    border-width: 1px;
+    border-style: solid;
+    border-color: #f5f5dc;
 }
