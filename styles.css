@@ -39,11 +39,11 @@
 
 /*Imagen de fondo Menú*/
 .bg-m-style{
-    background:linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url(img/bg-m.jpg);
+    background:linear-gradient(rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.6)), url(img/bg-m.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     position: absolute;
-    height: 153%;
+    height: 143%;
     width: 100%;
     left: 0;
     top: 0;
@@ -52,9 +52,8 @@
 
 /*Estilo de la fuente*/
 .font-style{
-    color: #000;
     font-family: 'Roboto';
-    font-weight: bold;
+    color: #000;
 }
 
 /*Tamaño y color de navbar*/
@@ -88,6 +87,7 @@
 /*Estilo de botones Home*/
 .btn-style{
     background-color: #f5f5dc;
+    font-weight: bold;
     border-radius: 8px;
     height: 37px;
     width: 110px;
@@ -110,10 +110,20 @@
 .container-reserva-style{
     width: 66%;
     color: #fff;
+   
 }
 
+/* Estilo de nombre y precio plato Menú*/
 .row-style{
+    background-color: #f5f5dc;
+    color: #000;
+    font-weight: bold;
+}
+
+/*Estilo de borde descripción plato Menú*/
+.row-style2{
     border-width: 1px;
     border-style: solid;
-    border-color: #f5f5dc;
+    border-color: #f5f5dc; 
+    font-size: 12px;
 }
