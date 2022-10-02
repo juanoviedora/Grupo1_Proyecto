@@ -11,19 +11,6 @@
     z-index: -1;
 }
 
-/*Imagen de fondo Contacto*/
-.bg-c-style{
-    background:linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url(img/bg-c.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    position: absolute;
-    height: 149.8%;
-    width: 100%;
-    left: 0;
-    top: 0;
-    z-index: -1;
-}
-
 /*Imagen de fondo Reserva*/
 .bg-r-style{
     background:linear-gradient(rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.4)), url(img/bg-r.jpg);
@@ -81,7 +68,7 @@
 
 /*Posición de contenedor Home*/
 .container-home-style{
-    margin-top: 27.3%;
+    margin-top: 20%;
 }
 
 /*Estilo de botones Home*/
@@ -89,14 +76,9 @@
     background-color: #f5f5dc;
     font-weight: bold;
     border-radius: 8px;
-    height: 37px;
-    width: 110px;
+    height: 47px;
+    width: 140px;
     margin: 0 11.3% 0 11.3%;
-}
-
-/*Posición de boton enviar y logo WhatsApp Contacto*/
-.input-style, .btnw-style {
-    margin-left: 145px;
 }
 
 /* Estilo linea separación Menú */
@@ -126,8 +108,4 @@
     border-style: solid;
     border-color: #f5f5dc; 
     font-size: 12px;
-}
-
-.container-style{
-    width: 67.3%;
 }

@@ -20,26 +20,34 @@
 <body>
     <div class="bg-r-style font-style">
         <!-- Barra de navegación -->
-        <nav class="navbar-style container-fluid fixed-top">
+        <nav class="navbar-style container-fluid">
             <!-- logo en nav-bar -->
-            <a href="index.html">
+            <a href="registro.html">
                 <img class="logo-style mx-auto d-block mt-2 mb-2" src="img/logo.png" alt="Logo">
             </a>
         </nav>
 
         <!-- Titulo principal -->
-        <div class="container-sections-style container mt-3 mb-3">
-            <h1 class="h1-style p-3">Reserva aquí</h1>
+        <div class="container-fluid d-flex mt-4 mb-3 justify-content-start">
+            <h1 class="h1-style p-3">Realiza tu reserva</h1>
         </div>
 
-        <!-- Boton WhatsApp -->
-        <div class="container d-flex mt-4 mb-5">
-            <a href="https://chat.whatsapp.com/Lvaco0bIf7e5SWe8XXCGID" target="_blank">
-                <button class="btnw-style p-2 w-100 border border-white rounded-1 bg-success text-white">
-                    Reserva vía WhatsApp</button></a>
-        </div>
+        <!-- Formulario -->
+        <form class="container mt-2 text-light">
+                <label>ID cliente</label>
+                <input class="form-control w-25 m-1" type="number" required><br>
 
-        <!-- Panel de Reservas -->
-        
+                <label>Fecha de reserva</label>
+                <input class="form-control w-25 m-1" type="date" required><br>
+            
+                <label>Hora de reserva</label>
+                <input class="form-control w-25 m-1" type="time" required><br>
+
+                <label>Número de asientos</label>
+                <input class="form-control w-25 m-1" type="number"><br>
+            
+                <input type="submit">
+        </form>
+
     </div>
 </body>
